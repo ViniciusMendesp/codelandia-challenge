@@ -32,7 +32,7 @@ export function Card({ date, title, content }: CardProps) {
         <Image
           src={isFilled ? "/heart-active.svg" : "/heart.svg"}
           alt="Heart Icon"
-          className=" cursor-pointer"
+          className="cursor-pointer"
           width={24}
           height={24}
           onClick={handleClick}
